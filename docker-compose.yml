@@ -12,3 +12,11 @@ services:
       - "8501:8501"
     volumes:
       - ./app1_todo-list/src/todos.txt:/app/todos.txt
+
+  app2_portfolio:
+    build: app2_portfolio/
+    image: app2_portfolio
+    container_name: app2
+    restart: always
+    ports:
+      - "8502:8501"
