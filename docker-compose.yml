@@ -1,0 +1,14 @@
+# docker-compose.yml
+
+version: '3'
+
+services:
+  app1_todo-list:
+    build: app1_todo-list/
+    image: app1_todo-list
+    container_name: app1
+    restart: always
+    ports:
+      - "8501:8501"
+    volumes:
+      - ./app1_todo-list/src/todos.txt:/app/todos.txt
