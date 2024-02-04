@@ -6,7 +6,7 @@ services:
   app1_todo-list:
     build: app1_todo-list/
     image: app1_todo-list
-    container_name: app1
+    container_name: 1-todo-list
     restart: always
     ports:
       - "8501:8501"
@@ -15,8 +15,16 @@ services:
 
   app2_portfolio:
     build: app2_portfolio/
-    image: app2_portfolio
-    container_name: app2
+    image: 2_portfolio
+    container_name: 2-portfolio
     restart: always
     ports:
       - "8502:8501"
+
+  app7-weather-forecast-data:
+    build: app7-weather-forecast-data/
+    image: 7-weather
+    container_name: 7-weather
+    restart: always
+    ports:
+      - "8503:8501"
