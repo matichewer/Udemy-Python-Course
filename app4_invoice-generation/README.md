@@ -1,2 +1,0 @@
-# PDF invoices
-This is an app that creates PDF invoices out of Excel files.
