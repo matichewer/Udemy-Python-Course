@@ -1,0 +1,4 @@
+openai==1.11.1
+PyQt6==6.6.1
+PyQt6_sip==13.6.0
+python-dotenv==1.0.1
