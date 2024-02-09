@@ -4,7 +4,7 @@ version: '3'
 
 services:
   app1_todo-list:
-    build: app1_todo-list/
+    build: app01_todo-list/
     image: app1_todo-list
     container_name: 1-todo-list
     restart: always
@@ -14,7 +14,7 @@ services:
       - ./app1_todo-list/src/todos.txt:/app/todos.txt
 
   app2_portfolio:
-    build: app2_portfolio/
+    build: app02_portfolio/
     image: 2_portfolio
     container_name: 2-portfolio
     restart: always
@@ -22,7 +22,7 @@ services:
       - "8502:8501"
 
   app7-weather-forecast-data:
-    build: app7-weather-forecast-data/
+    build: app07_weather-forecast-data/
     image: 7-weather
     container_name: 7-weather
     restart: always
