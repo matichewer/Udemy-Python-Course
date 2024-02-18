@@ -25,7 +25,7 @@ SECRET_KEY = 'django-insecure-fue8s^ttuxjfm62buc)ky%etmq&-$$@b%=xawg=2c4rvoit8h9
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = False
 
-ALLOWED_HOSTS = ['https://pc-restaurant-menu.chewer.net/']
+ALLOWED_HOSTS = ['https://pc-restaurant-menu.chewer.net/', '192.168.0.2']
 
 CSRF_TRUSTED_ORIGINS = ["https://pc-restaurant-menu.chewer.net", "https://www.pc-restaurant-menu.chewer.net"]
 
