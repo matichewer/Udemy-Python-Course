@@ -23,9 +23,12 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 SECRET_KEY = 'django-insecure-fue8s^ttuxjfm62buc)ky%etmq&-$$@b%=xawg=2c4rvoit8h9'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
+DEBUG = False
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['https://pc-restaurant-menu.chewer.net/']
+
+CSRF_TRUSTED_ORIGINS = ["https://pc-restaurant-menu.chewer.net", "https://www.pc-restaurant-menu.chewer.net"]
+
 
 
 # Application definition

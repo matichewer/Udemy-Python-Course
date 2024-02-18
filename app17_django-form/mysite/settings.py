@@ -24,9 +24,12 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 SECRET_KEY = 'django-insecure-cx&nmptj_wx+c5mg-fq6p+!e-$ewfs!@=py$q6qlw#6#!dnrru'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
+DEBUG = False
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['https://pc-django-form.chewer.net/']
+
+CSRF_TRUSTED_ORIGINS = ["https://pc-django-form.chewer.net", "https://www.pc-django-form.chewer.net"]
+
 
 
 # Application definition
