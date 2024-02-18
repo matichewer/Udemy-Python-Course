@@ -26,7 +26,7 @@ Below is a list of the projects along with brief descriptions and deployment lin
 | 9 | Webcam Motion Detector | A program that monitors the computer webcam and sends an email when a new object enters the view. |  |
 | 10 | Tour Scraper | A script that checks a music band's website and sends an email when there are new tours. | |
 | 11 | Hootel Booking | A script to read csv files from hotels anb credit cards, and check information. |
-| 12 | Mario Bross | We analyze the code of Mario Bros game in this repo. | |
+| 12 | Mario Bross | We analyze the code of Mario Bros game in [this repo](https://github.com/arditsulceteaching/super-mario-python/). | |
 | 13 | School Management System with SQLite | A desktop PyQt6 GUI app for managing university student data with an SQLite. | |
 | 14 | School Management System with MySQL | Similar to app 13, but with MySQL database instead SQLite |  |
 | 15 | ChatGPT GUI | A desktop PyQt6 GUI to chat with ChatGPT API (deprecated api) | |
