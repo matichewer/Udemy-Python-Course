@@ -26,9 +26,11 @@ SECRET_KEY = 'django-insecure-cx&nmptj_wx+c5mg-fq6p+!e-$ewfs!@=py$q6qlw#6#!dnrru
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = False
 
-ALLOWED_HOSTS = ['https://pc-django-form.chewer.net/', '192.168.0.2']
+ALLOWED_HOSTS = ['pc-django-form.chewer.net/', 
+                 '192.168.0.2']
 
-CSRF_TRUSTED_ORIGINS = ["https://pc-django-form.chewer.net", "https://www.pc-django-form.chewer.net"]
+CSRF_TRUSTED_ORIGINS = ["https://pc-django-form.chewer.net", 
+                        "https://www.pc-django-form.chewer.net"]
 
 
 
