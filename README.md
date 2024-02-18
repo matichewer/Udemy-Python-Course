@@ -14,7 +14,7 @@ Below is a list of the projects along with brief descriptions and deployment lin
 
 | # | Name | Description | Source | Deploys |
 | - | ---- | ----------- | ------ | ------- |
-| 1 | Todo App | A distraction-free web app and GUI to help you focus on creating and completing tasks. | [app01_todo-list](app01_todo-list) | [Deploy](https://pc-todo-list.chewer.net) |
+| 1 | Todo App | A CLI, GUI and web app to create and complete tasks. | [app01_todo-list](app01_todo-list) | [Deploy](https://pc-todo-list.chewer.net) |
 | 2 | Portfolio | A website built to showcase coding projects and apps. | [app02_portfolio](app02_portfolio) | [Deploy](https://pc-portfolio.chewer.net) |
 | 3 | PDF Templates | A script that generates PDF templates of multiple pages given some predefined guidelines. | [app03_pdf-template](app03_pdf-template) | |
 | 4 | PDF Invoices | A script that reads invoice records from Excel files and automatically generates PDF invoices. | [app04_invoice-generation](app04_invoice-generation) | |
