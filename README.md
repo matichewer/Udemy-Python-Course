@@ -47,4 +47,4 @@ Feel free to explore each project by navigating to its respective folder. If you
 All projects in this repository are licensed under the GPL License. See the [LICENSE](LICENSE) file for details.
 
 ## Certificate
-You can see my certificate in https://link.com
+You can see my certificate in https://www.udemy.com/certificate/UC-44882b0d-5fd6-4ecd-b97a-40528dbc79ab/
