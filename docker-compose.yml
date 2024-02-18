@@ -43,7 +43,7 @@ services:
     container_name: 17-django-form
     restart: unless-stopped
     ports:
-      - "8000:8000"
+      - "8001:8000"
     volumes:
       - ./app17_django-form:/app
 
@@ -53,6 +53,6 @@ services:
     container_name: 18-restaurant-menu
     restart: unless-stopped
     ports:
-      - "8001:8000"
+      - "8002:8000"
     volumes:
       - ./app18_restaurant-menu:/app
