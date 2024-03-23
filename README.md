@@ -55,5 +55,3 @@ docker compose up
 You can see my certificate in https://www.udemy.com/certificate/UC-44882b0d-5fd6-4ecd-b97a-40528dbc79ab/
 
 
-## License
-All projects in this repository are licensed under the GPL License. See the [LICENSE](LICENSE) file for details.
