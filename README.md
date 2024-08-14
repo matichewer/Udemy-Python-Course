@@ -52,6 +52,6 @@ docker compose up
 
 
 ## Certificate
-You can see my certificate in https://www.udemy.com/certificate/UC-44882b0d-5fd6-4ecd-b97a-40528dbc79ab/
+You can see my certificate at https://www.udemy.com/certificate/UC-44882b0d-5fd6-4ecd-b97a-40528dbc79ab/
 
 
